@@ -1,4 +1,6 @@
-﻿echo "AppCenter Build Script Begin"
+﻿#! /bin/bash
+# appcenter-post-build.sh
+echo "AppCenter Build Script Begin"
 echo "git config user.email $git_user_email"
 git config user.email $git_user_email
 echo "git clone $AppCenterSupportFilesRepoWithPAT"
