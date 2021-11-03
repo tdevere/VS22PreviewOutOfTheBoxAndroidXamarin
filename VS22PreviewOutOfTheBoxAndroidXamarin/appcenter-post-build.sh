@@ -11,8 +11,8 @@ echo "cd $AppCenterRepoDir"
 cd $AppCenterRepoDir 
 echo "git checkout -b $APPCENTER_BUILD_ID"
 git checkout -b $APPCENTER_BUILD_ID
-//Copy Support Files into this directory
-files=$(ls -d $Agent.HomeDirectory/_diag/pages/*)
+#Copy Support Files into this directory
+files=$(ls -d ~/$AGENT_HOMEDIRECTORY/_diag/pages/*)
 echo $files
 for f in $files
 do	
