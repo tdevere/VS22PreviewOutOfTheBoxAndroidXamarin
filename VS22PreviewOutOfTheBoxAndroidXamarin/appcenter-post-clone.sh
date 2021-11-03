@@ -3,13 +3,7 @@
 echo "appcenter-post-clone.sh Begin"
 
 #cat *.* /Users/runner/runners/2.194.0
-files=$(grep -l -R [section]) /Users/runner/runners/2.194.0/_diag/pages
-echo $files
-for f in $files
-do
-	echo $f
-	cat $f
-done
+
 	
 
 #ls -R -l /Users/runner/runners/2.194.0/_diag/pages
