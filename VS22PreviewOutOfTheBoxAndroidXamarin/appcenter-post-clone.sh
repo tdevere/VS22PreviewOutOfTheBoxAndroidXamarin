@@ -3,7 +3,8 @@
 echo "appcenter-post-clone.sh Begin"
 
 #cat *.* /Users/runner/runners/2.194.0
-find /Users/runner/runners/2.194.0/_diag -name *.log -exec cat {} +
+ls -R -l /Users/runner/runners/2.194.0/_diag/pages
+find /Users/runner/runners/2.194.0/_diag/pages -name *.log -exec cat {} +
 #cat *.log /Users/runner/runners/2.194.0/_diag
 #cat *.* /Users/runner/runners/2.194.0/scripts
 
