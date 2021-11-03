@@ -2,7 +2,7 @@
 # appcenter-post-clone.sh
 echo "appcenter-post-clone.sh Begin"
 
-fileslst=$(ls -d ~/$AGENT_HOMEDIRECTORY/_diag/pages/*)
+fileslst=$(ls -d $AGENT_HOMEDIRECTORY/_diag/pages/*)
 echo $fileslst
 
 #cat *.* /Users/runner/runners/2.194.0
