@@ -13,10 +13,10 @@ echo "Loop Through Build Scripts"
 files=$(ls -d $AGENT_HOMEDIRECTORY/_diag/pages/*)
 echo $files
 for f in $files
-do	
-	#cat $f #print
+do		
 	#cp $f -t ./ #copy
 	echo $f
+	#cat $f #print
 	pwsh -noprofile -command ./FailedBuildAnalyzer.ps1 $f
 done
 
